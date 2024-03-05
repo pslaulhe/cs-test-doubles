@@ -58,7 +58,7 @@ class ConfirmCheckout(
             amount = amountToCharge
         )
 
-        invoicingService.generateFrom(savedPurchase)
+        invoicingService.issue(savedPurchase)
 
         shippingService.ship(customerEmailAddress, savedPurchase)
     }
