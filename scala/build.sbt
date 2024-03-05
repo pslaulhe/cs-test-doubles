@@ -8,7 +8,7 @@ val akkaHttpVersion = "10.1.11"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "test-http-api-integration",
+    name := "test-doubles",
     libraryDependencies ++= Seq(
       // akka streams
       "com.typesafe.akka" %% "akka-stream" % akkaVersion,
