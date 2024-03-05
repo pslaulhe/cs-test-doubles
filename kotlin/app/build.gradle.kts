@@ -15,6 +15,7 @@ dependencies {
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.12.0"))
     implementation("com.squareup.okhttp3:okhttp")
     testImplementation("com.squareup.okhttp3:mockwebserver")
+    testImplementation("io.mockk:mockk:1.13.10")
     implementation(platform("io.arrow-kt:arrow-stack:1.2.1"))
     implementation("io.arrow-kt:arrow-core")
 }
