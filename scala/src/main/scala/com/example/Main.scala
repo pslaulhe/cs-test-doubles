@@ -11,14 +11,14 @@ object Main extends App {
 
   import system.dispatcher
 
-  CreateForm(
-    typeformBaseUrl = "https://api.typeform.com",
-    typeformAccessToken = "YOUR_ACCESS_TOKEN",
-    typeformWorkspace = "WORKSPACE_ID",
-    httpClient = Http()
-  ).execute match {
-    case Left(createFormFailure) => println(createFormFailure)
-    case Right(formId) => println(formId)
-  }
+//  CreateForm(
+//    typeformBaseUrl = "https://api.typeform.com",
+//    typeformAccessToken = "YOUR_ACCESS_TOKEN",
+//    typeformWorkspace = "WORKSPACE_ID",
+//    httpClient = Http()
+//  ).execute match {
+//    case Left(createFormFailure) => println(createFormFailure)
+//    case Right(formId) => println(formId)
+//  }
 
 }
